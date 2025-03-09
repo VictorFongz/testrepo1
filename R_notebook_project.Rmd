@@ -1,0 +1,7 @@
+**Test Repository**
+
+```{r}
+aq = airquality
+qqnorm(aq$Wind)
+qqline(aq$Wind, col = "red")
+```
